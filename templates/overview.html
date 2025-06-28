@@ -59,12 +59,18 @@
     }
 
     .container {
-      width: 95rem;
+      /* width: 95rem;*/
+      /* This width is too small for larger screens */
+      max-width: 120rem;
       margin: 0 auto;
     }
 
     .cards-container {
       margin-top: 8rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 
     .card {
@@ -74,6 +80,7 @@
       transform: skewX(-20deg);
       display: flex;
       transition: all 0.5s;
+      width: fit-content;
     }
 
     .card__emoji {
