@@ -8,12 +8,6 @@
   <link href="https://fonts.googleapis.com/css?family=Megrim|Nunito+Sans:400,900" rel="stylesheet" />
   <link rel="icon"
     href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/155/ear-of-maize_1f33d.png" />
-  <!-- remember that each asset has its own request
-         => a request for HTML page
-         => a request for favicon.ico
-         => a request for CSS file
-         => a request for that image
-    -->
   <title>{%PRODUCTNAME%} {%IMAGE%} /// NODE FARM</title>
 
   <style>
@@ -288,8 +282,6 @@
         <span class="product__emoji product__emoji--8">{%IMAGE%}</span>
         <span class="product__emoji product__emoji--9">{%IMAGE%}</span>
       </div>
-      <!-- Replace all of these pieces that we want to add dynamically with a placeholder, and then later with our code replace that placeholder with the actual data -->
-      <!-- The placeholder could be anything, but we want to find something that is probably not on the page, so that we don't replace anything wrong. -->
       <h2 class="product__name">{%PRODUCTNAME%}</h2>
       <div class="product__details">
         <p><span class="emoji-left">🌍</span>From {%FROM%}</p>

@@ -193,14 +193,7 @@
 <body>
   <div class="container">
     <h1>🌽 Node Farm 🥦</h1>
-    <!-- PROBLEM: => we don't know how many products will be in the overview, so we can't hardcode the HTML for each product.
-    => each product have its own figure element.
-    => each product has its own different data, so we can't hardcode the HTML for each product.
-    => imagine we have 10 products in json, then we need to create 10 figure elements with different data.
-    Solution: => we can use a template for each product, and then replace the placeholders with the actual data.
-    => we can use a loop to create the figure elements for each product. -->
     <div class="cards-container">
-      <!-- We can create as many products as we want, and the loop will create the figure elements for each product. -->
       {%PRODUCT_CARD%}
     </div>
   </div>

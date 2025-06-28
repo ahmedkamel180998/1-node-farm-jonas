@@ -19,11 +19,6 @@
         </div>
     </div>
 
-    <!-- We need to build the link for each product dynamically, so we use a placeholder {%ID%} that will be replaced with the actual product ID.
-    In overview page, when you hover over the first product, you will see "127.0.0.1:8000/product?id=0" in the link, and so on.
-    Also this link "127.0.0.1:8000/product?id=1" will be displayed in browser url when you click on the first product.
-    This ID in the link is also the same id in JSON file.
-    After that in server handler will take care of going to the right page, when the product ID is 1 -->
     <a class="card__link" href="/product?id={%ID%}">
         <span>Detail <i class="emoji-right">👉</i></span>
     </a>
